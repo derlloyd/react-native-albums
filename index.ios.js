@@ -13,12 +13,7 @@ const App = () => (
     </View>
 );
 
-
-
 // render it to the device - run component to display on screen
 // 1st arg is name of project
 // 2nd ag is first component to render to application
 AppRegistry.registerComponent('albums', () => App);
-
-// root component modify
-// <View style={{ flex: 1 }}> in tutorial, but not required
